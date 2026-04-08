@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Arial", sans-serif;
+}
+
+body {
+  @apply bg-slate-100 text-slate-900;
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+}
